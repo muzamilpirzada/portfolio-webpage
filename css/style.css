@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+h1,h2,h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header {
+    background-image: url('../images/heading_poster.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+#inner {
+    margin-top: 100px;
+}
+
+#contact {
+    background-color: white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#inner-contact {
+    height: 210px;
+
+    width: 600px;
+    background-size: 600px;
+    /* background-color: red; */
+    background-image: url(../images/Message1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-heading {
+    letter-spacing: 5px;
+}
+
+#contact-paragraph {
+    margin-bottom: 70px;
+}
+
+
+#services {
+    background-image: url(../images/Layer\ 4.jpg);
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#services-contact {
+    height: 210px;
+
+    width: 700px;
+    background-size: 700px;
+    /* background-color: red; */
+    background-image: url(../images/Message\ copy\ 4\ \(1\).png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#service-heading {
+    letter-spacing: 5px;
+}
+
+#service-paragraph {
+    margin-bottom: 70px;
+}
+
+#what-we-do {
+    background-color: white;
+    color: white;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#inner-skills {
+    background-image: url(../images/Message\ copy\ 5.png);
+    color: black;
+    height: 800px;
+
+    width: 610px;
+    /* background-size: 800px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.skill-heading {
+    letter-spacing: 1px;
+    text-align: center;
+
+
+}
+
+#skill-h1 {
+    margin-bottom: 50px;
+}
+
+#skill-three {
+    margin-bottom: 50px;
+}
+
+.skill-heading {
+    margin-top: 20px;
+
+}
+
+#grid-lyers {
+    height: 500px;
+    background-color: white;
+
+}
+
+#inner-grid {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#inner-grid-2 {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+.small-images {
+    padding: 2px 2px;
+}
+
+
+#footer {
+
+    background-color: white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#inner-footer {
+    height: 300px;
+
+    width: 700px;
+    background-size: 700px;
+    
+    background-image: url(../images/Message1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+#footer-heading{
+    /* padding-bottom: 200px; */
+}
+
+
+
+#nested-footer{
+    height: 300px;
+
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:120px;
+
+}
+
+#footer-heading{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+#button{
+    height: 60px;
+    width: 360px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(34, 30, 30);
+    
+margin-top: 20px;
+}
+
+#last-footer{
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+
+}
